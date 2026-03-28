@@ -1,0 +1,23 @@
+
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card {
+border: 3px solid black;
+border-radius: 10px;
+padding: 30px;
+}
+
+.Cold {
+    background-color: rgb(189, 241, 241);
+}
+
+.Mild {
+    background-color: rgb(232, 234, 196);
+}
+.Hot {
+    background-color: rgb(255, 139, 139);
+}

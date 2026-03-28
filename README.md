@@ -1,2 +1,8 @@
 # is120-hw10-aaron-garry
 JavaScript Weather Forecast
+
+For this weather forecaster I used 2 for loops. The first was a loop that would loop 5 times each time generating a random number and adding it to an array. The second was a for of loop where I looped through each number in the array. The length of the loops was set so there was no need to use a while loop.
+I tested it out and if I made the array longer more cards would be created. This is super nice because I am not limited ot the five card forecast. I could use the same loops and have just 2 cards or 15 cards and it still works. To change it I would make the first loop longer or hardcode more values into the array.
+One of the harder things was trying to style cards. It was challenging to make it look good and give the cards styles. I started to order how I added elements then I learned how to give an element a class using JavaScript. I learned how to use .classList.add("class"). This worked great and I used it to style the cards and add background color. I had a hard time using if statements to set my weather category variable. I figured out that I needed to set the variable outside the if statement first.
+For the background colors I thought I could create three CSS classes named off the category types. Then I could just add that class to the cards that have that weather category.
+This made is so I did not have to do another if statement. I can just add the class because its the same name as the category. 
